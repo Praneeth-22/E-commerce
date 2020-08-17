@@ -1,0 +1,43 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	margin:0;
+	padding:0;
+}
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #b2ebf2;
+}
+nav ul{
+	width: auto;
+    float: right;
+    margin-top: 8px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+nav ul li a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+a:hover{
+    color: red;
+    transition: 0.5s;
+}
+img{
+    width: 100%;
+    margin-top: -11px;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#b2ebf2;
+  color:black;
+  text-align: center;
+}
